@@ -1,0 +1,72 @@
+PATH
+  remote: .
+  specs:
+    op-foodcritic-rules (0.0.1)
+      foodcritic
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.3.0)
+    cucumber-core (1.5.0)
+      gherkin (~> 4.0)
+    diff-lcs (1.2.5)
+    erubis (2.7.0)
+    foodcritic (7.0.1)
+      cucumber-core (>= 1.3)
+      erubis
+      nokogiri (>= 1.5, < 2.0)
+      rake
+      rufus-lru (~> 1.0)
+      treetop (~> 1.4)
+      yajl-ruby (~> 1.1)
+    gherkin (4.0.0)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    parser (2.3.1.2)
+      ast (~> 2.2)
+    pkg-config (1.1.7)
+    polyglot (0.3.5)
+    powerpack (0.1.1)
+    rainbow (2.1.0)
+    rake (11.2.2)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.2)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    rubocop (0.42.0)
+      parser (>= 2.3.1.1, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.8.1)
+    rufus-lru (1.1.0)
+    treetop (1.6.8)
+      polyglot (~> 0.3)
+    unicode-display_width (1.1.0)
+    yajl-ruby (1.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  op-foodcritic-rules!
+  rake
+  rspec
+  rubocop
+
+BUNDLED WITH
+   1.12.5
