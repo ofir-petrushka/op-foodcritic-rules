@@ -1,0 +1,5 @@
+sudo: false
+language: ruby
+cache: bundler
+
+bundler_args: --jobs 3 --retry 3

@@ -1,0 +1,9 @@
+---
+<%# erb test %>
+suites:
+- name: tested
+  run_list:
+  - recipe[tested]
+- name: test_includes
+  run_list:
+  - recipe[test_includes]
