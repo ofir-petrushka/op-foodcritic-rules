@@ -25,8 +25,11 @@ Once you have installed the gem, simply run foodcritic with the `-G` option:
 ## <a id="OP001"></a>OP001: Include a kitchen test suite for every recipe not included by another
 
 [Kitchen tests](https://docs.chef.io/kitchen.html) are the recommended way for automated chef recipe testing.
+
 Generally speaking every recipe should have be in at least one test suite.
+
 This is a laxed rule not requiring recipes included by other recipes to have test suites.
+
 
 This rules looks for entries in .kitchen.yml under runlists to have every recipe under your recipe directory.
 
